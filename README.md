@@ -1,6 +1,6 @@
-# Example Homework
+# Example Python Homework
 
-An example homework assignment for figuring out how to use Github for
+An example homework assignment in Python for figuring out how to use Github for
 classrooms.
 
 This simple assignment asks a student to provide a Python function which squares
@@ -17,7 +17,7 @@ using their code once the homework is submitted. This is similar to how
 # How to Submit
 
 1. Create a Python file `example_homework.py`.
-2. Create a function in `example_homewory.py`
+2. Supply a `square(x)` function in `example_homework.py`
 3. Test your code using the supplied test suite by running
 
        $ python -m unittest -v test
