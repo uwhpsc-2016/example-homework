@@ -20,7 +20,7 @@ using their code once the homework is submitted. This is similar to how
 2. Supply a `square(x)` function in `example_homework.py`
 3. Test your code using the supplied test suite by running
 
-       $ python -m unittest -v test
+        $ python -m unittest -v test
 
    (See Python's [unittest](https://docs.python.org/2/library/unittest.html)
    module for information on how to write and execute untitests.) Students are
