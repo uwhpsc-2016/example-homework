@@ -1,7 +1,5 @@
 # Example Python Homework
 
-[![Join the chat at https://gitter.im/uwhpsc-2016/example-python-homework](https://badges.gitter.im/uwhpsc-2016/example-python-homework.svg)](https://gitter.im/uwhpsc-2016/example-python-homework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 An example homework assignment in Python for figuring out how to use Github for
 classrooms.
 
