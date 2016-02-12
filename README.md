@@ -23,6 +23,6 @@ using their code once the homework is submitted. This is similar to how
         $ python -m unittest -v test
 
    (See Python's [unittest](https://docs.python.org/2/library/unittest.html)
-   module for information on how to write and execute untitests.) Students are
+   module for information on how to write and execute unittests.) Students are
    highly encouraged to supply additional tests as needed.
 4. If all tests pass then ...
