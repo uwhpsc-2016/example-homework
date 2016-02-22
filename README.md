@@ -14,7 +14,7 @@ Provide definitions to the functions `square` and `cube` defined in the Python
 submodules `example_homework.squaring` and `example_homework.cubing`,
 respectively.
 
-```
+```python
 def square(x):
     # return the square of x
     
