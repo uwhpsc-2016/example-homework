@@ -27,4 +27,7 @@ def cube(x):
     value : number
         The square of `x`.
     """
-    pass
+    if type(x) != list:
+        return x * x * x
+    else:
+        return [a * a * a for a in x ]

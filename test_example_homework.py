@@ -37,6 +37,15 @@ class TestSquare(unittest.TestCase):
     def test_negative(self):
         self.assertEqual(square(-1), 1)
 
+    def test_complex(self):
+        self.assertEqual(square(1 - 1j), (1 - 1j)*(1 - 1j))
+
+    def test_list(self):
+        self.assertEqual(square([2, -2, 1j]), [4, 4, -1])
+
+    def test_empty_list(self):
+        self.assertEqual(square([]), [])
+
 
 class TestCube(unittest.TestCase):
     """Test the `cube` function defined in `example_homework.cube`.

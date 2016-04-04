@@ -27,4 +27,7 @@ def square(x):
     value : number
         The square of `x`.
     """
-    pass
+    if type(x) != list:
+        return x * x
+    else:
+        return [a * a for a in x]
