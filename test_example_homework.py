@@ -46,7 +46,11 @@ class TestSquare(unittest.TestCase):
     def test_empty_list(self):
         self.assertEqual(square([]), [])
 
+    def test_empty_list_recursive(self):
+        self.assertEqual(square([[],[[],[]]]), [[],[[],[]]])
 
+    def test_list_recursive(self):
+        self.assertEqual(square([1, [1, 2], 3, [1, 2, [1, 3]]] ), [1, [1, 4], 9, [1, 4, [1, 9]]] ) 
 class TestCube(unittest.TestCase):
     """Test the `cube` function defined in `example_homework.cube`.
 

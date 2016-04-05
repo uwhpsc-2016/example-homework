@@ -30,4 +30,4 @@ def cube(x):
     if type(x) != list:
         return x * x * x
     else:
-        return [a * a * a for a in x ]
+        return [cube(a) for a in x ]

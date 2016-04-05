@@ -30,4 +30,4 @@ def square(x):
     if type(x) != list:
         return x * x
     else:
-        return [a * a for a in x]
+        return [square(a) for a in x]
