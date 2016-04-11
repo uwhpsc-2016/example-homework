@@ -1,4 +1,4 @@
-r"""
+"""
 cubing.py
 ===========
 
@@ -27,4 +27,5 @@ def cube(x):
     value : number
         The square of `x`.
     """
+    return x**3
     pass
